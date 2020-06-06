@@ -1,0 +1,22 @@
+{
+  "name": "ismet55555.github.io",
+  "version": "1.0.0",
+  "description": "My Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismet55555/ismet55555.github.io.git"
+  },
+  "author": "Ismet Handzic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismet55555/ismet55555.github.io/issues"
+  },
+  "homepage": "https://github.com/ismet55555/ismet55555.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
