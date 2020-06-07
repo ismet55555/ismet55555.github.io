@@ -28,7 +28,7 @@
 		</div>
     </header>
 
-	<main class="h-100" id="index-content">
+	<main  id="index-content">
 
 		<div class="container" id="intro">
 			<div class="row justify-content-center">
@@ -41,10 +41,10 @@
 					<div id="greeting-1">Hey there, I'm Ismet.</div>
 					<div id="greeting-2">This is my personal portfolio of all kinds of things.</div>
 					<div class="justify-content-md-left" id="front-buttons">
-						<div><a role="button" class="btn btn-outline-secondary front-button" href="pages/projects.html">Projects and Stuff</a></div>
-						<div><a role="button" class="btn btn-outline-secondary front-button" href="#">Stack</a></div>
-						<div><a role="button" class="btn btn-outline-secondary front-button" href="#">Background</a></div>
-						<div><a role="button" class="btn btn-outline-secondary front-button" href="#">Contact</a></div>
+						<div><a role="button" class="front-button d-flex" href="/pages/projects.html">Projects and Stuff</a></div>
+						<div><a role="button" class="front-button d-flex" href="#">Stack</a></div>
+						<div><a role="button" class="front-button d-flex" href="#">Background</a></div>
+						<div><a role="button" class="front-button d-flex" href="#">Contact</a></div>
 					</div>
 				</div>
 
@@ -62,17 +62,17 @@
 
 	<!-- Copyright  -->
 	<!-- <footer>
-			<div class="container text-center" id="footer">
-				<p>Copyright 2020 Ismet Handzic</p>
-			</div>
-		</footer> -->
+		<div class="container text-center" id="footer">
+			<p>Copyright 2020 Ismet Handzic</p>
+		</div>
+	</footer> -->
 
 
 
 	<!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
-		$(function() {
+		$( document ).ready(function() {
 			$("#header-placeholder").load("html/header.html");
 		});
 	</script>
