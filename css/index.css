@@ -2,7 +2,7 @@
 @keyframes slideInFromTop {
     0% {
       opacity: 0; 
-      transform: translateY(-110%);
+      transform: translateY(-40%);
     }
     100% {
       opacity: 1; 
@@ -32,12 +32,15 @@
 #greeting-1 {
   font-size: 35px;
   color: rgb(80, 80, 80);
-
   animation: 2s cubic-bezier(.14,.35,.1,.9) 0s 1 slideInFromTop;
 }
 #greeting-2 {
   font-size: 20;
   color: rgb(80, 80, 80);
+  border-bottom: 1px solid;
+  border-color: rgb(187, 187, 187);
+
+  padding-bottom: 20px;
 }
 
 
