@@ -2,10 +2,12 @@
   0% {
     opacity: 0;
     transform: translateY(-40%);
+    filter: blur(10px)
   }
   100% {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0px)
   }
 }
 
@@ -13,6 +15,7 @@
 
 #me {
   height: 180px;
+  filter: blur(4px) grayscale(100%)
 }
 #intro {
   margin-top: 100px;
@@ -27,7 +30,7 @@
 #greeting-1 {
   font-size: 35px;
   color: rgb(80, 80, 80);
-  animation: 2s cubic-bezier(0.14, 0.35, 0.1, 0.9) 0s 1 slideInFromTop;
+  animation: 1.3s cubic-bezier(0.14, 0.35, 0.1, 0.9) 0s 1 slideInFromTop;
 }
 #greeting-2 {
   font-size: 20;
