@@ -8,11 +8,20 @@ body, html {
     height:100%;
     margin:0;
     background-color: ghostwhite;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(223, 223, 223));
 
     font-family: 'Open Sans', sans-serif;
 }
 
 /* =========================================== */
+
+.navbar {
+    border-bottom: 1px solid;
+    border-color: rgb(187, 187, 187);
+}
+.navbar-brand {
+    color: rgb(80, 80, 80);
+}
 
 
 #me {
@@ -30,9 +39,11 @@ body, html {
 }
 #greeting-1 {
   font-size: 35px;
+  color: rgb(80, 80, 80);
 }
 #greeting-2 {
   font-size: 20;
+  color: rgb(80, 80, 80);
 }
 
 
@@ -63,9 +74,10 @@ body, html {
     background-color: rgba(114, 114, 114, 0);
     border-bottom: 1px ;
     cursor: pointer;
-    padding-left: 25px;
+    padding-left: 20px;
     border-left: 1px solid;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-style: italic;
 }
 
 
