@@ -1,0 +1,82 @@
+header {
+    margin-top: 15px;
+}
+
+/* =========================================== */
+
+body, html {
+    height:100%;
+    margin:0;
+    background-color: ghostwhite;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =========================================== */
+
+
+#me {
+    height: 180px;
+  }
+#intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#intro-right {
+    /* margin-right: 25px; */
+}
+#intro-left {
+    /* margin-left: 25px; */
+}
+#greeting-1 {
+  font-size: 35px;
+}
+#greeting-2 {
+  font-size: 20;
+}
+
+
+/* =========================================== */
+
+
+#front-buttons {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: auto;
+}
+.front-button {
+    background-color: rgba(255, 222, 173, 0);
+    font-size: medium;
+    color: rgb(124, 124, 124);
+    border-radius: 1px;
+    padding-left: 0px;
+    border: none;
+    text-decoration: none;
+    
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function        : ease-in;
+    transition-delay                  : 0.0s;
+    transition                        : 0.4s all;
+}
+.front-button:hover {
+    color: rgb(27, 27, 27);
+    background-color: rgba(114, 114, 114, 0);
+    border-bottom: 1px ;
+    cursor: pointer;
+    padding-left: 25px;
+    border-left: 1px solid;
+    font-weight: bold;
+}
+
+
+/* =========================================== */
+
+
+#footer {
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
