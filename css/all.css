@@ -1,60 +1,62 @@
 /* =========================================== */
 
-
-::-moz-selection { /* Code for Firefox */
-    color: rgb(0, 0, 0);
-    background: rgb(255, 196, 0);
+::-moz-selection {
+  /* Code for Firefox */
+  color: rgb(0, 0, 0);
+  background: rgb(255, 196, 0);
 }
-  
+
 ::selection {
-    color: rgb(0, 0, 0);
-    background: rgb(255, 196, 0);
+  color: rgb(0, 0, 0);
+  background: rgb(255, 196, 0);
 }
-
 
 /* =========================================== */
 
-
-body, html {
-    height:100%;
-    margin:0;
-    background-color: ghostwhite;
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(209, 209, 209));
-    font-family: 'Open Sans', sans-serif;
-    
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: ghostwhite;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    rgb(209, 209, 209)
+  );
+  font-family: "Open Sans", sans-serif;
 }
 
 /* =========================================== */
 
 header {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .navbar {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: rgb(187, 187, 187);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgb(187, 187, 187);
 }
 .navbar-brand {
-    color: rgb(80, 80, 80);
+  color: rgb(80, 80, 80);
 }
-.navbar-toggler-icon, .navbar-toggler {
-    border: 0;
+.navbar-toggler-icon,
+.navbar-toggler {
+  border: 0;
 }
 .navbar-toggler:focus {
-    outline: none;
+  outline: none;
 }
 
 /* =========================================== */
 
-
 #footer {
-    color: rgb(51, 51, 51);
-    font-size: 11px;
-    text-align: center;
-    font-style: italic;
-    margin-top: 15px;
-    margin-bottom: 40px;
-  }
-  
-  /* * { border: 1px solid red; } */
+  color: rgb(51, 51, 51);
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+/* * { border: 1px solid red; } */

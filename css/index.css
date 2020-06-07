@@ -1,38 +1,33 @@
-
 @keyframes slideInFromTop {
-    0% {
-      opacity: 0; 
-      transform: translateY(-40%);
-    }
-    100% {
-      opacity: 1; 
-      transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-40%);
   }
-
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* =========================================== */
 
-
 #me {
-    height: 180px;
-  }
+  height: 180px;
+}
 #intro {
   margin-top: 100px;
   margin-bottom: 100px;
-
-
 }
 #intro-right {
-    /* margin-right: 25px; */
+  /* margin-right: 25px; */
 }
 #intro-left {
-    /* margin-left: 25px; */
+  /* margin-left: 25px; */
 }
 #greeting-1 {
   font-size: 35px;
   color: rgb(80, 80, 80);
-  animation: 2s cubic-bezier(.14,.35,.1,.9) 0s 1 slideInFromTop;
+  animation: 2s cubic-bezier(0.14, 0.35, 0.1, 0.9) 0s 1 slideInFromTop;
 }
 #greeting-2 {
   font-size: 20;
@@ -43,49 +38,45 @@
   padding-bottom: 20px;
 }
 
-
 /* =========================================== */
-
 
 #front-buttons {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: auto;
 }
 .front-button {
-    background-color: rgba(255, 222, 173, 0);
-    font-size: medium;
-    color: rgb(124, 124, 124);
-    border-radius: 1px;
+  background-color: rgba(255, 222, 173, 0);
+  font-size: medium;
+  color: rgb(124, 124, 124);
+  border-radius: 1px;
 
-    padding-bottom: 5px;
-    padding-left: 0px;
-    border: none;
-    border-color: rgb(255, 196, 0);
-    text-decoration: none;
-    
-    -webkit-transition-timing-function: ease-in;
-    transition-timing-function        : ease-in;
-    transition-delay                  : 0.0s;
-    transition                        : 0.5s padding-left, 0.5s border-left;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  border: none;
+  border-color: rgb(255, 196, 0);
+  text-decoration: none;
+
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  transition: 0.5s padding-left, 0.5s border-left;
 }
 .front-button:hover {
-    color: rgb(27, 27, 27);
-    background-color: rgba(114, 114, 114, 0);
-    cursor: pointer;
-    padding-left: 20px;
-    border-left: 7px solid rgb(255, 196, 0);
-    /* font-weight: bold; */
-    font-style: italic;
-    text-decoration: none;
+  color: rgb(27, 27, 27);
+  background-color: rgba(114, 114, 114, 0);
+  cursor: pointer;
+  padding-left: 20px;
+  border-left: 7px solid rgb(255, 196, 0);
+  /* font-weight: bold; */
+  font-style: italic;
+  text-decoration: none;
 }
 .front-button:active {
-    outline: none;
+  outline: none;
 }
 .front-button:focus {
-    outline: none;
+  outline: none;
 }
 
-
 /* =========================================== */
-
