@@ -25,7 +25,6 @@
   transition-delay: 0s;
   transition: transform 0.5s ease-out, background-color 0.5s ease-out;
 }
-
 .card:hover {
   filter: grayscale(0%);
   transform: translateY(-10px);

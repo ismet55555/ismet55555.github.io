@@ -1,0 +1,33 @@
+#content {
+    padding-bottom: 100px;
+  }
+  
+  #page-title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: "Open Sans Bold", sans-serif;
+  }
+  
+  /* =========================================== */
+
+  
+  .card {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(221, 221, 221, 0.5);
+    border: 0px;
+    border-radius: 1px;
+      filter: grayscale(100%);
+  
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    transition: transform 0.5s ease-out, background-color 0.5s ease-out;
+  }
+  .card:hover {
+    filter: grayscale(0%);
+    transform: translateY(-10px);
+    background-color: rgba(182, 182, 182, 0.5);
+  }
