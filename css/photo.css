@@ -19,7 +19,7 @@
     background-color: rgba(221, 221, 221, 0.5);
     border: 0px;
     border-radius: 1px;
-      filter: grayscale(100%);
+    filter: grayscale(100%);
   
     -webkit-transition-timing-function: ease-in;
     transition-timing-function: ease-in;
@@ -31,3 +31,20 @@
     transform: translateY(-10px);
     background-color: rgba(182, 182, 182, 0.5);
   }
+
+  .card-text {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  @media (max-width : 450px) {
+    .card {filter: grayscale(0%);}
+}
+
+@media only screen 
+and (max-device-height : 768px) 
+and (max-device-width : 1024px)
+{
+  .card {filter: grayscale(0%);}
+}
