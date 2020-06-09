@@ -15,7 +15,7 @@
   max-width: 100%;
   height: auto;
   padding: 20px;
-  background-color: rgba(221, 221, 221, 0.5);
+  background-color: rgba(201, 201, 201, 0.5);
   border: 0px;
   border-radius: 1px;
     filter: grayscale(100%);
@@ -28,7 +28,7 @@
 .card:hover {
   filter: grayscale(0%);
   transform: translateY(-10px);
-  background-color: rgba(182, 182, 182, 0.5);
+  background-color: rgba(158, 158, 158, 0.5);
 }
 
 .card img {
