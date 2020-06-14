@@ -11,11 +11,25 @@
 
 /* =========================================== */
 
+
+.project-section {
+  border: 1px solid rgb(200, 200, 200);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.project-section-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+
 .card {
   max-width: 100%;
   height: auto;
   padding: 20px;
-  background-color: rgba(201, 201, 201, 0.5);
+  background-color: rgba(200, 200, 200, 0.5);
   border: 0px;
   border-radius: 1px;
     filter: grayscale(100%);
@@ -28,16 +42,13 @@
 .card:hover {
   filter: grayscale(0%);
   transform: translateY(-10px);
-  background-color: rgba(158, 158, 158, 0.5);
+  background-color: rgba(160, 160, 160, 0.5);
 }
-
 .card img {
   max-width: 500px;
   max-height: auto;
-
-
-  /* border: 1px dashed black; */
 }
+
 
 .button-details {
   font-size: medium;
