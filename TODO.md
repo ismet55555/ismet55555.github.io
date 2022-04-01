@@ -1,14 +1,23 @@
 # TODO
 
-- Remove annoying white blank at bottom - DONE
-- Format stack logos to remove space around them - DONE
-- Fit stack logos evenly without stretching - DONE
+- **Patents**
+    - Each patent is one card filling up whole horizontal space
+    - Fills with color when hovered accross
+    - Image: Find framed images, just front cover
+    - Description: 2-3 sentences description
+    - Use cases: 2-3 bullets points
+    - Product: Link to product
+    - Lisenced status: Yes, no
 
-Contact
-- Layout
+- **Academic Research**
+    - Format same as patent
+    - Image
+    - Abstract
+    - Abstract in Plain english
+    - Publication type: Peer reviewed conference / Journal
+    - Authors
+    - Year
 
 
-Project
-- Single project card
-- Multiple project card
+
 
