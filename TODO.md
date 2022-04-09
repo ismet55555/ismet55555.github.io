@@ -1,5 +1,7 @@
 # TODO
 
+- Update stack
+
 - **Patents**
     - Each patent is one card filling up whole horizontal space
     - Fills with color when hovered accross
